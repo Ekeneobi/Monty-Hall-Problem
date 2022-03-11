@@ -1,0 +1,15 @@
+# 1.1 
+Write a one-round simulation of the Monty Hall Problem (“Let’s make a deal”) according to the following rules:
+(6 points)
+a) Write a function that randomly defines where the first price (a car), the second price (a money envelope) and the third price (a Zonk) is hidden.
+b) Let the player choose one of the doors (e.g. 1,2.3).
+c) The moderator will never open the door with the first prize behind it. But once the player has chosen the door with the first price, the moderator will randomly reveal a door with either the second or the third price behind it.
+d) After revealing a door, the moderator asks the player whether to change the door or not.
+e) Tell the player what price he won.
+# 1.2 
+Write a program for an arbitrary (e.g. n = 1.000) number of simulations for the above problem and count the results of winning the first price.
+(5 points)
+a) Does it pay off for the participant of the game show to switch doors after the moderator has opened one door.
+b) Explain the results.
+c) What is the expected probability to win if you randomly choose to change doors or not? Backup your expectation by another simulation.
+Hint: Compare the relative frequency to win after changing doors with the relative frequency to win without changing doors. Write a function that determines the wins for a given strategy (“change”, “noChange” or “random”).
